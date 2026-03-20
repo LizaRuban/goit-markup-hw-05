@@ -668,6 +668,7 @@ img {
 .policy-container {
   display: flex;
   gap: 8px;
+  margin-bottom: 14px;
 }
 
 .privacy-policy {
@@ -692,10 +693,13 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   color: white;
-  margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field:nth-child(4) {
+  margin-bottom: 8px;
 }
 
 .form-button:hover,
