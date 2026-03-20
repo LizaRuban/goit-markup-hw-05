@@ -451,7 +451,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .subscribe-text {
@@ -798,7 +798,6 @@ img {
   align-items: center;
   width: 16px;
   height: 16px;
-  margin-right: 8px;
 }
 
 .checkbox-box {
