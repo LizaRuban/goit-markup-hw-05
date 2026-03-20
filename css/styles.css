@@ -480,7 +480,7 @@ img {
 
 .footer-email:hover,
 .footer-email:focus {
-  border-color: #8e8f99;
+  border-color: #31d0aa;
   outline: none;
 }
 
@@ -586,7 +586,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding: 72px 24px 16px 24px;
+  padding: 24px 24px 16px 24px;
 }
 
 .form-container {
@@ -784,8 +784,9 @@ img {
   pointer-events: auto;
 }
 
-.checkbox-icon {
-  fill: none;
+.checkbox-box {
+  width: 16px;
+  height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
@@ -796,7 +797,16 @@ img {
   pointer-events: none;
 }
 
+.checkbox-icon {
+  opacity: 0;
+  fill: white;
+}
+
+.checkbox-input:checked + .checkbox-box {
+  background-color: #4d5ae5;
+}
+
 .checkbox-input:checked + .checkbox-box .checkbox-icon {
   opacity: 1;
-  fill: #4d5ae5;
+  fill: white;
 }
