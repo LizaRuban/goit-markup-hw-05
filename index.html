@@ -540,13 +540,14 @@
           <p class="subscribe-text">Subscribe</p>
           <form class="footer-form">
             <input
+              type="email"
               name="footer-email"
               class="footer-email"
               placeholder="E-mail"
             />
             <button type="submit" class="footer-button">
               Subscribe
-              <svg class="subscribe-icon" width="24" height="20">
+              <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
@@ -556,7 +557,7 @@
     </footer>
     <div class="modal-overlay">
       <div class="modal">
-        <button class="close-box">
+        <button class="close-button">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -606,13 +607,12 @@
             class="form-input form-textarea"
           ></textarea>
           <div class="policy-container">
-            <svg class="icon-checkbox" width="16" height="16">
-              <use href="./images/icons.svg#icon-Checkbox"></use>
-            </svg>
-            <p class="policy-text">
-              I accept the term and conditions of the
-              <a href="" class="privacy-policy">Privacy Policy</a>
-            </p>
+            <input type="checkbox" id="accept-terms" class="policy-checkbox" />
+            <label for="accept-terms" class="policy-label">
+              <span class="policy-text"></span>
+              I accept the terms and conditions of the
+              <a href="#" class="privacy-policy">Privacy Policy</a>
+            </label>
           </div>
           <button type="submit" class="form-button">Send</button>
         </form>
