@@ -631,6 +631,26 @@ img {
   padding: 0 24px;
 }
 
+.policy-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.policy-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-checkbox {
+  fill: none;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
 .privacy-policy {
   font-weight: 400;
   font-size: 12px;

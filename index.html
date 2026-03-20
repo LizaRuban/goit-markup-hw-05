@@ -575,6 +575,7 @@
               id="username"
               name="username"
               class="form-input"
+              autofocus
             />
           </div>
           <label class="form-label" for="phone">Phone</label>
@@ -604,15 +605,15 @@
             placeholder="Text input"
             class="form-input form-textarea"
           ></textarea>
-          <label class="checkbox-label" for="checkbox"></label>
-          <input
-            type="checkbox"
-            id="checkbox"
-            class="form-checkbox"
-            name="privacy-checkbox"
-          />
-          I accept the term and conditions of the
-          <a href="" class="privacy-policy">Privacy Policy</a>
+          <div class="policy-container">
+            <svg class="icon-checkbox" width="16" height="16">
+              <use href="./images/icons.svg#icon-Checkbox"></use>
+            </svg>
+            <p class="policy-text">
+              I accept the term and conditions of the
+              <a href="" class="privacy-policy">Privacy Policy</a>
+            </p>
+          </div>
           <button type="submit" class="form-button">Send</button>
         </form>
       </div>
